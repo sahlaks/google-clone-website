@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.main{
+    position: absolute;
+    top:26%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.google{
+    position: relative;
+    width: 280px;
+    top: 60px;
+}
+.searchtab{
+    width: 500px;
+    height:45px;
+    position:absolute;
+    transform: translate(-20%,-50%);
+    cursor: pointer;
+}
+.tab-size{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    border: 1px solid rgb(170, 169, 169);
+    padding-left: 40px;
+    box-shadow: 1px 3px 10px -6px;
+    font-size: 16px;
+    font-family: Noto Sans HK;
+}
+.searchicon{
+   position: absolute;
+   left: 14px;
+   top: 15px;
+   color: gray;
+   font-size: 20px;
+}
+.googlemic{
+    position: absolute;
+    width: 50px;
+    top: 10px;
+    right: 1px;
+    cursor: pointer;
+}
+.googlecam{
+    position: absolute;
+    width:30px;
+    top:10px;
+    right: -25px;
+    cursor: pointer;
+
+}
+.mail{
+    position: absolute;
+    top: 20px;
+    right: 280px;
+    font-family: Noto Sans HK;
+    font-size: 14px;
+    text-decoration: none;
+    color: gray;
+}
+.mail:hover{
+    text-decoration: underline;
+}
+.images{
+   position: absolute;
+   top: 20px;
+   right: 210px;
+   font-size: 14px;
+   font-family: Noto Sans HK;
+   text-decoration: none;
+   color: gray;
+}
+.images:hover{
+    text-decoration: underline;
+}
+.lab{
+    position: absolute;
+    border-radius: 50%;
+    top: 20px;
+    right: 150px;
+    color: rgb(105, 103, 103);
+    }
+.lab:hover{
+    cursor: pointer;
+    background: lightgrey;
+}
+.apps{
+    position: absolute;
+    border-radius: 50%;
+    top: 20px;
+    right: 100px;
+    color: rgb(105, 103, 103);
+
+}
+.apps:hover{
+    cursor: pointer;
+    background-color:lightgrey;
+}
+.profile{
+    position: absolute;
+    width: 35px;
+    top: 15px;
+    right: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.profile:hover{
+    background-color: lightgray;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    margin: 0;
+}
+.row{
+    display: flex;
+}
+    .icon{ 
+        margin-left: 20px;   
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 30px;
+    }
+    .icon:hover{
+       cursor: pointer;
+       border-color: lightseagreen; 
+    }
+
+.font{
+    width: 50px;
+    margin-left: 30%;
+    font-size: 10px;
+    font-weight: 10px;
+    font-family: Noto Sans HK;
+}
